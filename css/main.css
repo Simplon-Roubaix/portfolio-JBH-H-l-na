@@ -1,5 +1,6 @@
 
 body{
+  color:#423d39;
   font-family: 'Sanchez', serif;
   background:linear-gradient(-47deg, #96cdf8, #e3bea6)  ;
 }
@@ -18,8 +19,9 @@ body{
 
 .header{
   width:100%;
-  background-image: url(img/fond.jpg);
-
+  background-image: url(../img/fond.jpg);
+  background-size: cover;
+  border-bottom: 40px solid #ddd;
 }
 
 .fondheader {
@@ -34,7 +36,7 @@ body{
   position:absolute;
   margin:auto;
   background-color: #ddd;
-  padding:10 25;
+  padding:10px 25p;
   width:100%;
 
 }
@@ -73,6 +75,9 @@ body{
 
 /*CORPS*/
 
+
+/*page principale*/
+
 .corps {
 
 margin: auto;
@@ -83,6 +88,10 @@ width: 80%;
 section .container{
 
 }
+
+
+/*page PORTFOLIO*/
+
 
 .portefolio_icon {
   margin:1em auto;
@@ -103,6 +112,63 @@ section .container{
   width:400px;
   margin:10px 25px;
 }
+
+
+.image_portfolio_JB{
+
+  background-image: url(../img/bennythecook.jpg);
+  background-size: cover;
+}
+
+/*FIN DE LA PAGE PORTFOLIO*/
+
+/*page CONTACT*/
+
+
+
+.contact-info {
+  list-style:non;
+  padding:0;
+  margin:0;
+  font-size: 0.9em;
+
+}
+.contact-info a {
+  display:block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size:20px 20px;
+  padding: 0 0 0 30px;
+}
+
+.contact-info li .phone a {
+  background-image:url('../img/phone.png');
+}
+
+.contact-info li .mail a {
+  background-image:url('../img/mail.png');
+}
+
+.contact-info li .facebook a {
+  background-image:url('../img/facebook.png');
+}
+
+/*FIN PAGE CONTACT*/
+
+
+
+/*Page A propos*/
+
+.profile-photo {
+  display:block;
+  max-width:300px;
+  margin: 50px auto 50px;
+  border-radius: 200px;
+}
+
+
+
+/*FIN DE PAGE APROPOS*/
 
 /*Barre de navidation*/
 
