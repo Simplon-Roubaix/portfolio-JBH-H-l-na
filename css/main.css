@@ -1,0 +1,68 @@
+
+body{
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.container{
+  display:flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+}
+
+
+
+/*HEADER*/
+
+
+.header{
+  background: red ;
+  display: flex;
+  height: 400px;
+  width:auto;
+
+
+}
+
+.img-fluid{
+
+  position: relative;
+  height:100%;
+  width:100%;
+
+}
+
+
+
+
+
+/*CORPS*/
+
+
+
+
+
+/*FOOTER*/
+
+
+footer{
+  position:relative;
+  height:  400px;
+  width: auto;
+  padding: 48px 0;
+  background-image: url(https://a0.muscache.com/airbnb/static/footer/background-317dd7c2cb678ddbdb0a983d511cb9a0.png);
+  Background-color: #2b2d2e;
+  color: #fff;
+}
+
+.dropdown {
+  align-items:center
+  background:none;
+  background-color: #484848;
+  border: 0;
+  color: #fff;
+  display: block;
+  padding: 8px 10px;
+  width: 100%;
+
+}
