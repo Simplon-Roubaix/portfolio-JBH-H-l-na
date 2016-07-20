@@ -47,8 +47,8 @@ body{
 
 
 .navbar a{
-
-  padding:15px 15px;
+  margin-top: -5.5px;
+  padding:10px;
   text-decoration: none;
   color:black;
 
