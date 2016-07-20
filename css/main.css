@@ -43,7 +43,7 @@ body{
 
 
 .navbar a{
-
+  margin-top: -7px;
   padding:10px;
   text-decoration: none;
   color:black;
