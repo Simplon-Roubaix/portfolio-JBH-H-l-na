@@ -2,7 +2,7 @@
 body{
   color:#423d39;
   font-family: 'Sanchez', serif;
-  /*background:linear-gradient(-47deg, #96cdf8, #e3bea6)  ;*/
+  background:linear-gradient(-45deg, #def9ff, #fff1e3)  ;
 }
 
 
@@ -200,7 +200,11 @@ page PORTFOLIO
 page CONTACT
 ************************************************/
 
+#primary{
 
+  padding-left: 15%;
+
+}
 
 .contact-info {
   list-style:non;
@@ -241,6 +245,8 @@ Page A propos
   display:block;
   max-width:300px;
   margin: 50px auto 50px;
+  border-bottom: 5px solid #b8aea5;
+  border-right: 5px solid #b8aea5;
   border-radius: 200px;
 }
 
@@ -270,6 +276,14 @@ Page A propos
 
 
 /*FOOTER*/
+
+
+.haut_de_page {
+
+  text-align: center;
+  margin: auto;
+
+}
 
 
 footer{
