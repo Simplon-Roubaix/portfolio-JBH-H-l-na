@@ -81,6 +81,7 @@ body{
   background-image: url(../img/fond.jpg);
   background-size: cover;
   background-position: center;
+  margin-bottom: 50px;
 }
 
 
@@ -97,6 +98,15 @@ margin:auto 10%;
 width: 80%;
 
 }
+
+
+.presentation{
+  text-align: center;
+  margin:0 10%;
+  font-size: 15px;
+  height:40%;
+}
+
 
 
 
@@ -142,12 +152,14 @@ page PORTFOLIO
 
   width:400px;
   height:450px;
-  border : 4px solid #ddd;
+  /*border : 4px solid #ddd;*/
   padding:15px 15px;
   margin:25px 25px;
 
 }
 
+
+/*pour que les images entrent dans la céllule*/
 .resize {
 
   width:100%;
