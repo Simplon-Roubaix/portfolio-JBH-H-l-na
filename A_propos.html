@@ -1,88 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Portfolio</title>
+<html lang="fr">
 
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Cinzel:700,400' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Cuprum:400,700italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Sanchez:400,400italic' rel='stylesheet' type='text/css'>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+<!-- ###########################################################################
+###################################   HEAD   ###################################
+############################################################################ -->
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
+<!-- Beginning of the head containing all the meta-data -->
+<head>
+  <!-- Setting of the characters encoding -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Setting of the responsive parameters -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <!-- Setting of the authors -->
+  <meta name="author" content="Jean-Baptiste Hinnebo &amp; Hélèna Nguyen">
+  <!-- Setting of the favicon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- Setting of the page title, keywords & description for web-referencing -->
+  <meta name="keywords" content="portfolio, portfolios, Jean-Baptiste Hinnebo, Hélèna Nguyen">
+  <meta name="description" content="Portfolios de Jean-Baptiste Hinnebo &amp; de Hélèna Nguyen, réalisés avec passion &amp; ferveur en binôme.">
+  <title>Portfolio</title>
+
+  <!-- Setting of the font families -->
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:700,400" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700italic,400italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Sanchez:400,400italic" rel="stylesheet" type="text/css">
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <!-- Font-Awesome 4.6.3 core CSS -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- Normalization styles -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <!-- User custom styles -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
 
 
-<!--            HEADER             -->
 
+<!-- ###########################################################################
+###################################   BODY   ###################################
+############################################################################ -->
 
-<header class="header container-fluid">
+<body class=".container-fluid">
 
+<!-- ==========================================================================
+   Header which contains the navigation top-bar
+=========================================================================== -->
+  <header class="header container-fluid">
+    <nav class="navbar navbar-fixed-top navbar-light bg-faded" role="navigation">
+      <div class="nav navbar-nav">
+        <a class="nav-item nav-link active" href="index.html">Accueil</a>
+        <a class="nav-item nav-link" href="portfolio_pages.html">Portfolios</a>
+        <a class="nav-item nav-link" href="Contact.html">Contact</a>
+        <a class="nav-item nav-link" href="A_propos.html">A propos</a>
+      </div>
+    </nav>
+  </header>
 
-
-  <nav class="navbar navbar-fixed-top navbar-light bg-faded ">
-    <div class="nav navbar-nav">
-      <a class="nav-item nav-link active" href="index.html">Acceuil</a>
-      <a class="nav-item nav-link" href="portfolio_pages.html">Portefolios</a>
-      <a class="nav-item nav-link" href="Contact.html">Contact</a>
-      <a class="nav-item nav-link" href="A_propos.html">A propos</a>
-    </div>
-  </nav>
-
-
-  <section class=Entete>
-    <h1 class=Titre>portefolio</h1>
-    <p class=sous-titre>De Héléna Nguyen et Jean-Baptiste Hinnebo</p>
+  <section class="Entete">
+    <h1 class="Titre">portfolios</h1>
+    <p class="sous-titre">De Héléna Nguyen et Jean-Baptiste Hinnebo</p>
   </section>
 
 
+  <div class=decoration></div>
 
 
 
-</div>
+<!-- ==========================================================================
+   Section whichs contains the content of the page
+=========================================================================== -->
+  <section class="corps">
+    <img src="img/bennythecook.jpg" alt="photo de JB" class="profile-photo">
+    <h3>
+      <p>Hi, I'm Juan Baptista Hennibo. May i say that i am the best?
+      </p>
+      <p>
+        Well, it's official, i beat everyone in everything and i'm pretty sure i'm still better than all the people who thought they got a chance against the awesomness that is bibi!</p>
+      <p>
+        If you want, you can help me stay the best by not being better.
+      </p>
+    </h3>
+  </section>
+
+
+<!-- ==========================================================================
+   Footer
+=========================================================================== -->
+  <footer>
+
+
+  </footer>
 
 
 
+  <!-- ==========================================================================
+     Bootstrap core JavaScript scrips
+  =========================================================================== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
 
-</header>
-
-
-<!--             FIN DU HEADER                   -->
-
-<section class=corps>
-  <img src="img/bennythecook.jpg" alt "photo de JB" class="profile-photo">
-  <h3>
-  <p>Hi, I'm Juan Baptista Hennibo. May i say that i am the best?</p>
-    <p>Well, it's official, i beat everyone in everything and i'm pretty sure i'm still better than all the people who thought they got a chance against the awesomness that is bibi!</p>
-    <P> If you want, you can help me stay the best by not being better.
-    </P>
-  </h3>
-</section>
-
-<!--                FOOTER                       -->
-
-
-<footer>
-
-</footer>
-
-
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
 </html>
