@@ -17,11 +17,16 @@ body{
 
 
 .header{
-  background:linear-gradient (38deg, #96cdf8, #e3be96);
   width:100%;
 
+}
+
+.fondheader {
+  width:100%;
+  z-index: -100;
 
 }
+
 
 .navbar{
 
@@ -133,7 +138,7 @@ footer{
 }
 
 .dropdown {
-  align-items:center
+  align-items:center;
   background:none;
   background-color: #484848;
   border: 0;
