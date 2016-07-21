@@ -16,9 +16,13 @@ body{
   flex-wrap:wrap;
 }
 
-/* Horizontal decorative line */
+/* Fifth level heading */
 .horizontal_line {
   border-bottom: 2px solid #DDD;
+}
+
+p {
+  font-size: 1.25rem;
 }
 
 
