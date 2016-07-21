@@ -53,13 +53,13 @@
 <body class=".container-fluid">
 
 <!-- ==========================================================================
-   Header which contains the navigation top-bar
+   Header which contains the navigation top-bar & the decorative header
 =========================================================================== -->
-
   <header class="header">
+
     <!-- Beginning of the small devices collapsed top-bar -->
     <nav class="navbar navbar-light">
-      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsing-topbar">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#collapsing-topbar">
         &#9776;
       </button>
       <div class="collapse" id="collapsing-topbar">
@@ -68,7 +68,7 @@
               <a href="https://simplon-roubaix.github.io/portfolio-JBH-H-l-na/index.html"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;Accueil</a>
           </li>
           <li class="nav-item btn-group">
-            <a class="dropdown-toggle nav-link" type="button" id="dropdownMenuPortfolioMin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;&nbsp;Nos portfolios</a>
+            <a class="dropdown-toggle nav-link" id="dropdownMenuPortfolioMin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;&nbsp;Nos portfolios</a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuPortfolioMin">
                 <a class="dropdown-item" href="https://simplon-roubaix.github.io/portfolio-JBH-H-l-na/portfolio_JB.html"><i class="fa fa-male" aria-hidden="true"></i>&nbsp;&nbsp;Portfolio Jean-Baptiste</a>
                 <a class="dropdown-item" href="https://simplon-roubaix.github.io/portfolio-JBH-H-l-na/portfolio_helena.html"><i class="fa fa-female" aria-hidden="true"></i>&nbsp;&nbsp;Portfolio Hélèna</a>
@@ -78,7 +78,7 @@
               <a href="https://simplon-roubaix.github.io/portfolio-JBH-H-l-na/A_propos.html"><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;&nbsp;À propos</a>
           </li>
           <li class="nav-item btn-group">
-            <a class="dropdown-toggle nav-link" type="button" id="dropdownMenuGitMin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp;GitHub</a>
+            <a class="dropdown-toggle nav-link" id="dropdownMenuGitMin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp;GitHub</a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuGitMin">
                 <a class="dropdown-item" href="https://github.com/JBHinnebo"><i class="fa fa-male" aria-hidden="true"></i>&nbsp;&nbsp;Jean-Baptiste Hinnebo</a>
                 <a class="dropdown-item" href="https://github.com/NHelena"><i class="fa fa-female" aria-hidden="true"></i>&nbsp;&nbsp;Hélèna Nguyen</a>
@@ -91,6 +91,7 @@
       </div>
     </nav>
     <!-- End of the small devices collapsed top-bar -->
+
     <!-- Beginning of the medium & large devices fixed navigation top-bar -->
     <nav class="navbar navbar-default hidden-md-down">
       <ul class="nav navbar-nav">
@@ -98,7 +99,7 @@
             <a href="https://simplon-roubaix.github.io/portfolio-JBH-H-l-na/index.html"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;Accueil</a>
         </li>
         <li class="nav-item btn-group">
-          <a class="dropdown-toggle nav-link" type="button" id="dropdownMenuPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;&nbsp;Nos portfolios</a>
+          <a class="dropdown-toggle nav-link" id="dropdownMenuPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;&nbsp;Nos portfolios</a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuPortfolio">
               <a class="dropdown-item" href="https://simplon-roubaix.github.io/portfolio-JBH-H-l-na/portfolio_JB.html"><i class="fa fa-male" aria-hidden="true"></i>&nbsp;&nbsp;Portfolio Jean-Baptiste</a>
               <a class="dropdown-item" href="https://simplon-roubaix.github.io/portfolio-JBH-H-l-na/portfolio_helena.html"><i class="fa fa-female" aria-hidden="true"></i>&nbsp;&nbsp;Portfolio Hélèna</a>
@@ -108,7 +109,7 @@
             <a href="https://simplon-roubaix.github.io/portfolio-JBH-H-l-na/A_propos.html"><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;&nbsp;À propos</a>
         </li>
         <li class="nav-item btn-group">
-          <a class="dropdown-toggle nav-link" type="button" id="dropdownMenuGit" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp;GitHub</a>
+          <a class="dropdown-toggle nav-link" id="dropdownMenuGit" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp;GitHub</a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuGit">
               <a class="dropdown-item" href="https://github.com/JBHinnebo"><i class="fa fa-male" aria-hidden="true"></i>&nbsp;&nbsp;Jean-Baptiste Hinnebo</a>
               <a class="dropdown-item" href="https://github.com/NHelena"><i class="fa fa-female" aria-hidden="true"></i>&nbsp;&nbsp;Hélèna Nguyen</a>
@@ -120,33 +121,38 @@
       </ul>
     </nav>
     <!-- End of the medium & large devices fixed navigation top-bar -->
+
+    <!-- Beginning of the decorative header -->
+    <section class="Entete">
+      <h1>Portfolios</h1>
+      <p class="subtitle">By Hélèna Nguyen &amp; Jean-Baptiste Hinnebo</p>
+    </section>
+    <!-- End of the decorative header -->
   </header>
 
+  <!-- Decorative horizontal line -->
+  <div class="decoration"></div>
 
-<!-- ==========================================================================
+<!-- ===========================================================================
    Section whichs contains the content of the page
 =========================================================================== -->
-  <section class="Entete">
-    <h1 class="Titre">portfolios</h1>
-    <p class="sous-titre">By Héléna Nguyen &amp; Jean-Baptiste Hinnebo</p>
+  <section class="corps">
+    <img src="img/portrait.jpg" alt="Picture of JB" class="profile-photo">
+    <h5  >
+      <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;Jean-Baptiste HINNEBO</p>
+      <p>Graduated from the academy of Tournai, I'm a graphic designer, an illustrator and a 3d artist. And all for the price of one! Isn't that a sweet deal, ladys and gentlemen?</p>
+      <p>If you have any question, any project or request, please, don't be shy, use the contact page to reach me.</p>
+    </h5>
   </section>
 
-  <div class=decoration></div>
-
-
-
-
-
   <section class="corps">
-    <img src="img/portrait.jpg" alt="photo de JB" class="profile-photo">
+    <img src="img/helena.jpg" alt="Picture of Helena" class="profile-photo">
     <h5 style="border-bottom: 2px solid #ddd" >
-      <p>Jean-Baptiste HINNEBO
-      </p>
-      <p>
-        Graduated from the academy of Tournai, I'm a graphic designer, an illustrator and a 3d artist. And all for the price of one! Isn't that a sweet deal, ladys and gentlemen?</p>
-      <p>
-        If you have any question, any project or request, please, don't be shy, use the contact page to reach me.
-      </p>
+      <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;Hélèna NGUYEN</p>
+      <p>I'm a twenty-two-year-old <i class="fa fa-heart" aria-hidden="true"></i> tech-lover who's unfortunately way too good at <i class="fa fa-thumbs-o-down" aria-hidden="true"></i> procrastinating, <i class="fa fa-clock-o" aria-hidden="true"></i> being late and <i class="fa fa-bed" aria-hidden="true"></i> oversleeping.</p>
+      <p>During my extra free time, I highly enjoy <i class="fa fa-bolt" aria-hidden="true"></i> going for a run, <i class="fa fa-bicycle" aria-hidden="true"></i> biking around, <i class="fa fa-music" aria-hidden="true"></i> singing <small>- but only when I'm all alone</small>, <i class="fa fa-book" aria-hidden="true"></i> reading books,<br>
+        <i class="fa fa-gamepad" aria-hidden="true"></i> playing video-games, <i class="fa fa-video-camera" aria-hidden="true"></i> watching series &amp; also <i class="fa fa-cutlery" aria-hidden="true"></i> cooking stuff <small>(especially <i class="fa fa-birthday-cake" aria-hidden="true"></i> cakes)</small></p>
+      <p>Feel free to drop me a message anytime simply by hitting the <i class="fa fa-envelope-o" aria-hidden="true"></i> "Contact" button up above.</p>
     </h5>
   </section>
 
@@ -155,13 +161,13 @@
    Footer
 =========================================================================== -->
   <footer>
-
-    <div class=copyright>
-      <p> 	&copy; Nguyen / Hinnebo</p>
-    </div>
-
+    <aside class="button-back-top">
+      <a href="#"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i>&nbsp;Top</a>
+    </aside>
+    <aside class="copyright">
+      <p><i class="fa fa-copyright" aria-hidden="true"></i> Hélèna Nguyen &amp; Jean-Baptiste Hinnebo</p>
+    </aside>
   </footer>
-
 
 
   <!-- ==========================================================================
