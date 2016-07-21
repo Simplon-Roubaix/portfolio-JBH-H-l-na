@@ -16,8 +16,8 @@ body{
   flex-wrap:wrap;
 }
 
-/* Fifth level heading */
-h5 {
+/* Horizontal decorative line */
+.horizontal_line {
   border-bottom: 2px solid #DDD;
 }
 
