@@ -2,7 +2,7 @@
 body{
   color:#423d39;
   font-family: 'Sanchez', serif;
-  /*background:linear-gradient(-47deg, #96cdf8, #e3bea6)  ;*/
+  background:linear-gradient(-45deg, #def9ff, #fff1e3)  ;
 }
 
 
@@ -151,8 +151,17 @@ page PORTFOLIO
 
 
   width:400px;
-  height:450px;
-  /*border : 4px solid #ddd;*/
+  height:600px;
+  padding:15px 15px;
+  margin:25px 25px;
+
+}
+
+.item_video {
+
+
+  width:400px;
+  height:220px;
   padding:15px 15px;
   margin:25px 25px;
 
@@ -164,7 +173,16 @@ page PORTFOLIO
 
   width:100%;
   height:100%;
-  max-height: 450px;
+  max-height: 600px;
+  max-width: 400px;
+}
+
+
+.resize_video{
+
+  width:100%;
+  height:100%;
+  max-height: 250px;
   max-width: 400px;
 }
 
@@ -200,7 +218,11 @@ page PORTFOLIO
 page CONTACT
 ************************************************/
 
+#primary{
 
+  padding-left: 15%;
+
+}
 
 .contact-info {
   list-style:non;
@@ -241,6 +263,8 @@ Page A propos
   display:block;
   max-width:300px;
   margin: 50px auto 50px;
+  border-bottom: 5px solid #b8aea5;
+  border-right: 5px solid #b8aea5;
   border-radius: 200px;
 }
 
@@ -272,8 +296,24 @@ Page A propos
 /*FOOTER*/
 
 
+.haut_de_page {
+
+  text-align: center;
+  margin: auto;
+  color:grey;
+
+}
+
+.copyright {
+  float:none;
+  text-align: center;
+  margin: 0 auto;
+  padding: 105 0 0 0;
+
+}
+
+
 footer{
-  position:relative;
   margin-top: 50px;
   height:  200px;
   width: auto;
@@ -281,10 +321,9 @@ footer{
   background-image: url(../img/fond.jpg);
   background-size: cover;
   background-position: bottom;
-  color: #fff;
 }
 
-.dropdown {
+/*.dropdown {
   align-items:center;
   background:none;
   background-color: #484848;
@@ -294,4 +333,4 @@ footer{
   padding: 8px 10px;
   width: 100%;
 
-}
+}*/
