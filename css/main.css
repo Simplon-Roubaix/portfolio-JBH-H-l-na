@@ -1,57 +1,50 @@
+/* #############################################################################
+##############################   OVERALL STYLES   ##############################
+############################################################################## */
 
 body{
-  color:#423d39;
+  color: #423d39;
   font-family: 'Sanchez', serif;
   background:linear-gradient(-45deg, #def9ff, #fff1e3)  ;
 }
 
-
-.container{
+.container {
   width:960px
   margin:10px auto;
   display:flex;
   flex-direction: column;
   flex-wrap:wrap;
+}
 
+/* Fifth level heading */
+h5 {
+  border-bottom: 2px solid #DDD;
 }
 
 
+/* =============================================================================
+   HEADER
+============================================================================== */
 
-/*HEADER*/
-
-
-.header{
-  margin: auto;
-  width:100%;
+.header {
   background-image: url(../img/fond.jpg);
   background-size: cover;
-  border-bottom: 40px solid #ddd;
+  border-bottom: 40px solid #DDD;
 }
 
-.fondheader {
-  width:100%;
-  z-index: -100;
-
+.navbar {
+  position: absolute;
+  margin: auto;
+  background-color: #DDD;
+  padding: 10px 25px;
+  width: 100%;
 }
 
-
-.navbar{
-
-  position:absolute;
-  margin:auto;
-  background-color: #ddd;
-  padding:10px 25px;
-  width:100%;
-
-}
-
-
-.navbar a{
-  margin-top: -5.5px;
-  padding:10px;
+.navbar a {
+  margin-top: -6px;
+  padding: 10px;
   text-decoration: none;
-  color:black;
-
+  color: #423d39;
 }
 
 .Entete{
@@ -63,19 +56,26 @@ body{
 
 }
 
-.Titre{
+/* First level heading */
+.h1 {
   text-align: center;
-  margin:auto;
+  margin: auto;
   font-size: 4em;
 }
 
-.sous-titre{
+/* Paragraph below the h1 in the .Entete */
+.subtitle {
   font-family: 'Architects Daughter', cursive;
   font-size: 1.4em;
-  border
 }
 
-.decoration{
+
+/* =============================================================================
+   BODY
+============================================================================== */
+
+/* Decorative horizontal line */
+.decoration {
   height:40px;
   width:100%;
   background-image: url(../img/fond.jpg);
@@ -84,23 +84,13 @@ body{
   margin-bottom: 50px;
 }
 
-
-/*CORPS*/
-
-
-/****************************************
-page principale
-*****************************************/
-
 .corps {
-
-margin:auto 10%;
-width: 80%;
-
+  margin:auto 10%;
+  width: 80%;
 }
 
 
-.presentation{
+.presentation {
   text-align: center;
   margin:0 10%;
   font-size: 15px;
@@ -108,159 +98,104 @@ width: 80%;
 }
 
 
+/* =============================================================================
+   FOOTER
+============================================================================== */
 
-
-/**********************************************
-page PORTFOLIO
-***********************************************/
-
-
-
-
-
-
-
-.portefolio_icon {
-
-
-  width:450px;
-  height:562px;
-  border : 4px solid #ddd;
-  padding:15px 15px;
-  margin:25px 25px;
-
+footer {
+  margin-top: 50px;
+  height:  200px;
+  width: auto;
+  padding: 48px 0;
+  background-image: url(../img/fond.jpg);
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
 }
 
-.image_profil {
 
+.button-back-top a {
+  color: #423D39;
+  text-decoration: none;
+}
+
+.copyright {
+  padding: 105 0 0 0;
+  margin-top: 50px;
+}
+
+
+
+/* #############################################################################
+##############################   SPECIFIC PAGES   ##############################
+############################################################################## */
+
+/* =============================================================================
+   "Portfolio" page
+============================================================================== */
+
+.image_profil {
   background-color: white;
   height:300px;
   width:400px;
   margin:10px 9px;
 }
 
-
-.image_portfolio_JB{
-
-  background-image: url(../img/bennythecook.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
 .item {
-
-
   width:400px;
   height:600px;
   padding:15px 15px;
   margin:25px 25px;
-
 }
 
 .item_video {
-
-
   width:400px;
   height:220px;
   padding:15px 15px;
   margin:25px 25px;
-
 }
 
-
-/*pour que les images entrent dans la céllule*/
+/* Required, so that the images fit in the cell */
 .resize {
-
   width:100%;
   height:100%;
   max-height: 600px;
   max-width: 400px;
 }
 
-
-.resize_video{
-
+/* Required, so that the video previews fit in the cell */
+.resize_video {
   width:100%;
   height:100%;
   max-height: 250px;
   max-width: 400px;
 }
 
-
-.portfolio_de_intel{
+.portfolio_header {
   font-size: 42px;
   font-family: 'Cinzel', serif;
   text-align: center;
   margin:40px auto;
   width:400px;
-  border-bottom: 2px solid #ddd;
-
+  border-bottom: 2px solid #DDD;
 }
 
-
-.titre_de_gallerie{
-
+.gallery {
   text-align: center;
-
   font-size: 22px;
-  margin:40px auto;
+  margin: 40px auto;
   padding-bottom: 5px;
-  width:250px;
-  border-bottom: 2px solid #ddd;
-
+  width: 250px;
+  border-bottom: 2px solid #DDD;
 }
 
-/*FIN DE LA PAGE PORTFOLIO*/
 
-
-
-/**********************************************
-page CONTACT
-************************************************/
-
-#primary{
-
-  padding-left: 15%;
-
-}
-
-.contact-info {
-  list-style:non;
-  padding:0;
-  margin:0;
-  font-size: 0.9em;
-
-}
-.contact-info a {
-  display:block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size:20px 20px;
-  padding: 0 0 0 30px;
-}
-
-.contact-info li .phone a {
-  background-image:url('../img/phone.png');
-}
-
-.contact-info li .mail a {
-  background-image:url('../img/mail.png');
-}
-
-.contact-info li .facebook a {
-  background-image:url('../img/facebook.png');
-}
-
-/*FIN PAGE CONTACT*/
-
-
-
-/*****************************
-Page A propos
-********************************/
+/* =============================================================================
+   "À propos" page
+============================================================================== */
 
 .profile-photo {
-  display:block;
+  display: block;
   max-width:300px;
   margin: 50px auto 50px;
   border-bottom: 5px solid #b8aea5;
@@ -269,68 +204,10 @@ Page A propos
 }
 
 
+/* =============================================================================
+   "Contact" page
+============================================================================== */
 
-/*FIN DE PAGE APROPOS*/
-
-/*Barre de navidation*/
-
-.navigation{
-
-
-
+.contact_form {
+  padding-left: 15%;
 }
-
-.navigation ul{
-  list-style: none;
-}
-
-.navigation ul li a{
-
-  text-decoration: none;
-
-}
-
-
-
-
-/*FOOTER*/
-
-
-.haut_de_page {
-
-  text-align: center;
-  margin: auto;
-  color:grey;
-
-}
-
-.copyright {
-  float:none;
-  text-align: center;
-  margin: 0 auto;
-  padding: 105 0 0 0;
-
-}
-
-
-footer{
-  margin-top: 50px;
-  height:  200px;
-  width: auto;
-  padding: 48px 0;
-  background-image: url(../img/fond.jpg);
-  background-size: cover;
-  background-position: bottom;
-}
-
-/*.dropdown {
-  align-items:center;
-  background:none;
-  background-color: #484848;
-  border: 0;
-  color: #fff;
-  display: block;
-  padding: 8px 10px;
-  width: 100%;
-
-}*/
