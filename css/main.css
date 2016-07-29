@@ -18,7 +18,7 @@ body{
   align-content: space-around;
 }
 
-/* Fifth level heading */
+/* Decorative horizontal line */
 .horizontal_line {
   border-bottom: 2px solid #DDD;
 }
@@ -51,7 +51,7 @@ p {
 }
 
 .navbar a {
-  margin-top: -8.5px;
+  margin-top: -6px;
   padding: 10px;
   text-decoration: none;
   color: #423d39;
