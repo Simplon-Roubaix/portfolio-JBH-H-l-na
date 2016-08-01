@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jean-Baptiste Hinnebo -- Front-end developer
+    Hélèna Nguyen -- Front-end developer
+
+# THANKS
+
+    Simplon Roubaix
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
